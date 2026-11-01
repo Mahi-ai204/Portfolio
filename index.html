@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -351,26 +352,40 @@
             </div>
           </div>
 
-          <form id="contact-form" class="contact-form">
-            <label for="visitor-name">Your name</label>
-            <input id="visitor-name" name="name" type="text"
-              placeholder="Enter your name" required>
 
-            <label for="visitor-email">Your email</label>
-            <input id="visitor-email" name="email" type="email"
-              placeholder="you@example.com" required>
+            <form action="https://formsubmit.co/ali6789228@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="New Portfolio Message - Mahnoor Ali">
 
-            <label for="visitor-message">Your message</label>
-            <textarea id="visitor-message" name="message"
-              placeholder="Write your message here..." required></textarea>
+  <label for="visitor-name">Your name</label>
+  <input
+    id="visitor-name"
+    type="text"
+    name="name"
+    placeholder="Enter your name"
+    required
+  >
 
-            <button type="submit" class="button primary-button">
-              Prepare Email ↗
-            </button>
+  <label for="visitor-email">Your email</label>
+  <input
+    id="visitor-email"
+    type="email"
+    name="email"
+    placeholder="you@example.com"
+    required
+  >
 
-            <p class="form-note" id="form-status" aria-live="polite">
-              This form opens your email app; it does not send messages directly.
-            </p>
+  <label for="visitor-message">Your message</label>
+  <textarea
+    id="visitor-message"
+    name="message"
+    placeholder="Write your message here..."
+    required
+  ></textarea>
+
+  <button type="submit" class="button primary-button">
+    Send Message ↗
+  </button>
+</form>
           </form>
         </div>
 
